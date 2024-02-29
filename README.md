@@ -1,48 +1,56 @@
 # COMPRARE QUALCOSA SU AMAZON
+
 - aprire amazon
     - SE sei su desktop
         - aprire browser
         - andare su amazon.it
+            - SE hai un account
+                - accedi
+            - ALTRIMENTI
+                - crea un account
     - ALTRIMENTI
         - sbloccare il telefono
-        - aprire APP amazon
+            - SE l'app è installata
+                - aprire APP amazon
+            - ALTRIMENTI
+                - scaricare app su dispositivo
+                - aprire APP amazon
+                    - SE hai un account
+                        - accedi
+                    - ALTRIMENTI
+                        - crea un account
+
 - cercare da amazon
+    - creazione lista regali
+        - aggiungere lampada particolare
+        - aggiungere penna stilografica
+        - aggiungere libro
     - cliccare sulla barra "cerca"
-    - riflessione su regalo
-        - a lei piace una lampada particolare
     - cercare lampada
         - controllo requisiti
             - SE prime
-                - controllare prezzo
+            - AND nel budget
+                - aggiungere al carrello
+                - interrompi ricerca
             - ALTRIMENTI
-                - cercare altro regalo
-        - non è prime
-    - nuova riflessione su regalo
-        - potrei provare con le penne stilografiche
+                - proseguire con la lista
     - cercare penna
         - controllo requisiti
             - SE prime
-                - controllare prezzo
+            - AND nel budget
+                - aggiungere al carrello
+                - interrompi ricerca
             - ALTRIMENTI
-                - cercare altro regalo
-            - SE nel budget
-                - aggiungere a carrello
-            - ALTRIMENTI
-                - cercare altro regalo
-        - sfora il budget
-    - nuova riflessione su regalo
-        - i libri sono un classico come regali
+                - proseguire con la lista
     - cercare libro
         - controllo requisiti
             - SE prime
-                - controllare prezzo
+            - AND nel budget
+                - aggiungere al carrello
+                - interrompi ricerca
             - ALTRIMENTI
-                - cercare altro regalo
-            - SE nel budget
-                - aggiungere a carrello
-            - ALTRIMENTI
-                - cercare altro regalo
-        - parametri confermati
+                - proseguire con la lista
+
 - completare l'ordine
     - SE dati già presenti
         - confermare ordine
@@ -50,10 +58,3 @@
         - inserire dati utente
     - inserire l'opzione "pacchetto regalo"
     - cliccare su acquista
-
-
-
-
-
-
-
