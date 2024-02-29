@@ -19,38 +19,22 @@
                         - accedi
                     - ALTRIMENTI
                         - crea un account
-
 - cercare da amazon
     - creazione lista regali
         - aggiungere lampada particolare
         - aggiungere penna stilografica
         - aggiungere libro
     - cliccare sulla barra "cerca"
-    - cercare lampada
-        - controllo requisiti
-            - SE prime
-            - AND nel budget
-                - aggiungere al carrello
-                - interrompi ricerca
+    - FINO A CHE (non ho già trovato un regalo per la mia amica) E (ci sono ancora regali nella lista)
+        - cerco il prossimo regalo nella barra di ricerca
+        - SE la ricerca ha risultato
+            - controllo il risultato
+            - SE l'oggetto è prime E il costo rientra nel budget
+                - aggiungo il prodotto nel carrello
             - ALTRIMENTI
-                - proseguire con la lista
-    - cercare penna
-        - controllo requisiti
-            - SE prime
-            - AND nel budget
-                - aggiungere al carrello
-                - interrompi ricerca
-            - ALTRIMENTI
-                - proseguire con la lista
-    - cercare libro
-        - controllo requisiti
-            - SE prime
-            - AND nel budget
-                - aggiungere al carrello
-                - interrompi ricerca
-            - ALTRIMENTI
-                - proseguire con la lista
-
+                - proseguire con il prossimo prodotto della lista
+    - SE non trovo nessun regalo dalla lista
+        - offro una cena (EXIT)
 - completare l'ordine
     - SE dati già presenti
         - confermare ordine
@@ -58,3 +42,5 @@
         - inserire dati utente
     - inserire l'opzione "pacchetto regalo"
     - cliccare su acquista
+        - SE non arriva in tempo
+            - offro una cena (EXIT)
